@@ -1,0 +1,9 @@
+How to
+
+1. C:\Projects\PlatanusSoft\PlatanusSoft\wwwroot>git clone https://github.com/platanussoft/platanussoft.github.io
+
+2. git add .
+
+3. git commit -m "add 2025"
+
+4. git push origin master

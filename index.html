@@ -62,6 +62,24 @@
         .clearclass {
             clear: left;
         }
+
+		.gallery img, .gallery iframe {
+			max-width: 100%;
+			height: auto;
+		}
+
+		#youtube {
+			display: flex;
+			/*flex-wrap: wrap;*/
+			/*justify-content: center;*/
+			/*gap: 10px; */
+		}
+
+		.gallery {
+			flex: 1 1 300px; 
+			max-width: 100%;
+			text-align: center;
+		}
     </style>
 	
 	<script data-ad-client="ca-pub-1234247991321428" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -83,7 +101,7 @@
 
     <h1 class="title">PLATANUSSOFT APPLICATIONS</h1>
 
-    <div style="background-color:#e6f2ff;  ">
+    <div style="background-color: #e6f2ff; ">
 
             <h1>NUMBER SERIES CALCULATOR</h1>
 
@@ -122,7 +140,7 @@
                 </div>
 
 
-                <div class="gallery">
+                <div class="gallery" id="youtube">
 
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/m0I79JWPLYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
